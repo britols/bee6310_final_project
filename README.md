@@ -26,8 +26,6 @@ data/raw files description:
     - IRI_PNA.tsv  [months since 1960-01-01	unitless] missing data: -99.900002 source: https://iridl.ldeo.columbia.edu/SOURCES/.Indices/.CPC_Indices/.NHTI/?Set-Language=en
 - Greenland Blocking Index (GBI) 
     - GBI.csv header=None, sep=?, columns: [year jan feb ... dec], missing value = -99.00 source: https://psl.noaa.gov/gcos_wgsp/Timeseries/Data/gbi.mon.data
-    - IRI_WP.tsv [months since 1960-01-01	unitless] missing data: -99.900002 source: https://iridl.ldeo.columbia.edu/SOURCES/.Indices/.CPC_Indices/.NHTI/?Set-Language=en
-- East Atlantic (EA) 
     - tele_index.csv (standardized using 1980-2010)  **column 4** [year, month, NAO, EA, WP, EP/NP, PNA, EA/WR, SCA, TNH, POL, PT, Expl. Var.] source: https://ftp.cpc.ncep.noaa.gov/wd52dg/data/indices/tele_index.nh
     - IRI_EA.tsv [months since 1960-01-01	unitless] missing data: -99.900002 source: https://iridl.ldeo.columbia.edu/SOURCES/.Indices/.CPC_Indices/.NHTI/?Set-Language=en
 - West Pacific (WP) 
@@ -54,6 +52,7 @@ data/raw files description:
     - Same data as above, but starts in 1900 and ends in 2018 source: http://research.jisao.washington.edu/pdo/PDO.latest
     - PDO_source_2.csv header: [time, PDO, index] normalized? source: https://oceanview.pfeg.noaa.gov/erddap/tabledap/cciea_OC_PDO.html
     - For complete series try the file sst.mnmean.nc from https://psl.noaa.gov/data/gridded/data.noaa.ersst.v5.html
+    - PDO_source_3.csv https://psl.noaa.gov/pdo/ source: https://psl.noaa.gov/pdo/data/pdo.timeseries.hadisst1-1.data
 - Atlantic Multi-decadal Oscillation (AMO) 
     - AMO.csv header=None, sep=?, columns: [year jan feb ... dec], missing value = -99.990 source: https://psl.noaa.gov/data/correlation/amon.us.long.data
 - Quasi-biennial Oscillation (QBO) 
@@ -76,7 +75,7 @@ data/raw files description:
     - Opposite patterns of temperature and precipitation anomalies are typically observed during strong negative phases of the NAO
     - The NAO exhibits considerable interseasonal and interannual variability, and prolonged periods (several months) of both positive and negative phases of the pattern are common
     - he wintertime NAO also exhibits significant multi-decadal variability
-[Aditional info:](https://climate.metoffice.cloud/climate_modes.html#content)
+- [Aditional info:](https://climate.metoffice.cloud/climate_modes.html#content)
     - The term 'North Atlantic Oscillation' refers to variations in the large-scale surface pressure gradient in the North Atlantic region.
     - The NAO is associated with changes in temperature and rainfall in Europe and North America. It is related to the Arctic Oscillation, which is a measure of large-scale pressure variation across the whole of the northern hemisphere.
 
