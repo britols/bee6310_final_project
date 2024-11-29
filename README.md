@@ -1,6 +1,7 @@
 # bee6310_final_project
 
 Sources:
+- [NOAA modern page for monthly climate indices](https://psl.noaa.gov/data/timeseries/month/)
 - [NOAA Climate Indices: Monthly Atmospheric and Ocean Time Series](https://psl.noaa.gov/data/climateindices/list/)
 - [NOAA Northern Hemisphere Teleconnection Patterns](https://www.cpc.ncep.noaa.gov/data/teledoc/telecontents.shtml)
 - [NOAA indices intranet](https://ftp.cpc.ncep.noaa.gov/wd52dg/data/indices/)
@@ -61,8 +62,11 @@ data/raw files description:
     - NINO_1_2.csv source: header=None, sep=?, columns: [year jan feb ... dec], missing value = -99.99 source: https://psl.noaa.gov/data/correlation/nina1.anom.data 
     - ersst5_nino.csv [YR   MON  NINO1_2  NINO1_2_ANOM   NINO3    NINO3_ANOM   NINO4    NINO4_ANOM   NINO3_4  NINO3_4_ANOM] source: https://www.cpc.ncep.noaa.gov/data/indices/ersst5.nino.mth.91-20.ascii
 - Nino 4
-     - NINO_4.csv source: header=None, sep=?, columns: [year jan feb ... dec], missing value = -99.99 source: https://psl.noaa.gov/data/correlation/nina4.anom.data 
+    - NINO_4.csv source: header=None, sep=?, columns: [year jan feb ... dec], missing value = -99.99 source: https://psl.noaa.gov/data/correlation/nina4.anom.data 
     - ersst5_nino.csv [YR   MON  NINO1_2  NINO1_2_ANOM   NINO3    NINO3_ANOM   NINO4    NINO4_ANOM   NINO3_4  NINO3_4_ANOM] source: https://www.cpc.ncep.noaa.gov/data/indices/ersst5.nino.mth.91-20.ascii
+
+- Snow Cover
+    - snow_cover.csv each column is a different region in the NH https://climate.rutgers.edu/snowcover/ (ps: It is recognized that in early years the snow extent was underestimated on the NOAA maps, especially during Fall. Mapping improved considerably in 1972)
 
 #### Teleconnections description
 
