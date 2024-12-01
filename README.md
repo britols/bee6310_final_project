@@ -1,5 +1,10 @@
 # bee6310_final_project
 
+#### To do
+
+
+- Apply PCA to temp_min using CAO days only (use subset to define dates but apply PCA to full domain)
+
 Sources:
 - [NOAA modern page for monthly climate indices](https://psl.noaa.gov/data/timeseries/month/)
 - [NOAA Climate Indices: Monthly Atmospheric and Ocean Time Series](https://psl.noaa.gov/data/climateindices/list/)
